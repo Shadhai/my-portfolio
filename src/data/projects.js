@@ -10,8 +10,8 @@ export const projectsData = [
         "problemSolving": "We designed a reinforcement learning–ready ICU environment with a structured state-action-reward system, enabling agents to learn optimal interventions under varying patient conditions. Key challenges included modeling realistic ICU vitals dynamics, integrating a doctor assignment mechanism, and ensuring explainable decision outputs for every step.",
         "presentation": "The system is exposed via a FastAPI backend with endpoints like /reset, /step, and /state, enabling seamless integration with dashboards and RL training pipelines.",
         "polish": "Explainability modules generate human-readable clinical reasoning alongside each AI action, improving trust, interpretability, and evaluation in high-stakes medical environments.",
-        "image": "/exai1.png",
-        "archImage": "/exai.jpg",
+        "image": "exai1.png",
+        "archImage": "exai.jpg",
         "github": "https://github.com/Shadhai/EXAI_ICU_RL.git"
     },
     {
@@ -38,7 +38,7 @@ export const projectsData = [
         "problemSolving": "We designed a modular RAG pipeline consisting of ingestion, chunking, vector storage, retrieval, and generation layers. Key challenges included maintaining context accuracy across large documents, optimizing retrieval relevance (k=5 cosine similarity search), and ensuring fully local LLM execution using Ollama for zero-cost inference.",
         "presentation": "The system exposes FastAPI endpoints and multiple UI assistants (/car, /university, /tech) along with a unified /hub interface for interacting with different domain-specific agents.",
         "polish": "Enhanced retrieval accuracy using RecursiveCharacterTextSplitter, ChromaDB vector persistence, and MiniLM embeddings, while ensuring source attribution for every generated response.",
-        "image": "/UniRAG.png",
+        "image": "UniRAG.png",
         "archImage": "",
         "github": "https://github.com/Shadhai/Agentic_RAG_Chatbot.git"
     },
@@ -53,7 +53,7 @@ export const projectsData = [
         "problemSolving": "GAN training instability was addressed through techniques like improved loss functions, normalization strategies, and architectural tuning. Experiments included conditional generation, self-attention mechanisms, and stabilization methods to reduce mode collapse and improve output diversity.",
         "presentation": "Each GAN variant is organized as a separate module with visual output comparisons, enabling clear analysis of how architectural changes affect generated image quality.",
         "polish": "Optimizations such as spectral normalization, label conditioning, and attention layers significantly improved convergence stability and image realism.",
-        "image": "/Gan.png",
+        "image": "Gan.png",
         "archImage": "",
         "github": "https://github.com/Shadhai/GAN-Generative-Adversarial-Network-.git"
     }

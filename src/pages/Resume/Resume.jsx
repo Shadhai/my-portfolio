@@ -9,14 +9,14 @@ const Resume = () => {
                 <header className="resume-header">
                     <h1>My Resume</h1>
                     <p>Professional Experience & Skills</p>
-                    <a href="/software-2300032260-P SHADHAI JOSEPH.pdf" download="software-2300032260-P SHADHAI JOSEPH.pdf" className="download-btn-top">
+                    <a href={import.meta.env.BASE_URL + "software-2300032260-P SHADHAI JOSEPH.pdf"} download="software-2300032260-P SHADHAI JOSEPH.pdf" className="download-btn-top">
                         <FaDownload /> Download PDF
                     </a>
                 </header>
 
                 <div className="resume-preview">
                     <iframe
-                        src="/software-2300032260-P SHADHAI JOSEPH.pdf"
+                        src={import.meta.env.BASE_URL + "software-2300032260-P SHADHAI JOSEPH.pdf"}
                         title="Resume Preview"
                         className="resume-iframe"
                     />
